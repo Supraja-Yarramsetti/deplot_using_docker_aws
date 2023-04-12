@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dockerfalskapp:
+    build: ./dockerfalskapp
+    ports:
+        "8000:8000"
+    networks:
+      network_mode : host
